@@ -7,6 +7,7 @@ import LoginView from "@/views/LoginView.vue";
 import SearchView from "@/views/SearchView.vue";
 import BookmarkView from "@/views/BookmarkView.vue";
 import Index from "@/views/Index.vue";
+import { useUserStore } from "@/stores/userStore";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -44,6 +45,15 @@ const router = createRouter({
       component: () => import("../views/LoginView.vue"),
     },
   ],
+});
+
+router.beforeEach((to, from, next) => {
+  const userStore = useUserStore();
+  if (to.name !== "login" && !userStore.currentUser) {
+    next({ name: "login" });
+  } else {
+    next();
+  }
 });
 
 export default router;
