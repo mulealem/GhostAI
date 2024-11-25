@@ -1,0 +1,53 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "jsr:@std/dotenv": "jsr:@std/dotenv@0.225.2"
+    },
+    "jsr": {
+      "@std/dotenv@0.225.2": {
+        "integrity": "e2025dce4de6c7bca21dece8baddd4262b09d5187217e231b033e088e0c4dd23"
+      }
+    }
+  },
+  "redirects": {
+    "https://deno.land/x/deno_cron/cron.ts": "https://deno.land/x/deno_cron@v1.0.0/cron.ts"
+  },
+  "remote": {
+    "https://deno.land/std@0.168.0/async/abortable.ts": "80b2ac399f142cc528f95a037a7d0e653296352d95c681e284533765961de409",
+    "https://deno.land/std@0.168.0/async/deadline.ts": "2c2deb53c7c28ca1dda7a3ad81e70508b1ebc25db52559de6b8636c9278fd41f",
+    "https://deno.land/std@0.168.0/async/debounce.ts": "60301ffb37e730cd2d6f9dadfd0ecb2a38857681bd7aaf6b0a106b06e5210a98",
+    "https://deno.land/std@0.168.0/async/deferred.ts": "77d3f84255c3627f1cc88699d8472b664d7635990d5358c4351623e098e917d6",
+    "https://deno.land/std@0.168.0/async/delay.ts": "5a9bfba8de38840308a7a33786a0155a7f6c1f7a859558ddcec5fe06e16daf57",
+    "https://deno.land/std@0.168.0/async/mod.ts": "7809ad4bb223e40f5fdc043e5c7ca04e0e25eed35c32c3c32e28697c553fa6d9",
+    "https://deno.land/std@0.168.0/async/mux_async_iterator.ts": "770a0ff26c59f8bbbda6b703a2235f04e379f73238e8d66a087edc68c2a2c35f",
+    "https://deno.land/std@0.168.0/async/pool.ts": "6854d8cd675a74c73391c82005cbbe4cc58183bddcd1fbbd7c2bcda42b61cf69",
+    "https://deno.land/std@0.168.0/async/retry.ts": "e8e5173623915bbc0ddc537698fa418cf875456c347eda1ed453528645b42e67",
+    "https://deno.land/std@0.168.0/async/tee.ts": "3a47cc4e9a940904fd4341f0224907e199121c80b831faa5ec2b054c6d2eff5e",
+    "https://deno.land/std@0.168.0/http/server.ts": "e99c1bee8a3f6571ee4cdeb2966efad465b8f6fe62bec1bdb59c1f007cc4d155",
+    "https://deno.land/std@0.207.0/dotenv/mod.ts": "039468f5c87d39b69d7ca6c3d68ebca82f206ec0ff5e011d48205eea292ea5a6",
+    "https://deno.land/x/deno_cron@v1.0.0/cron.ts": "7f984d0c4c7ac4fb1ad3cd241d457e7808a9362735d910abb02dc689883ee3ef"
+  },
+  "workspace": {
+    "packageJson": {
+      "dependencies": [
+        "npm:@dicebear/collection@^9.2.2",
+        "npm:@dicebear/core@^9.2.2",
+        "npm:@mdi/font@^7.4.47",
+        "npm:@supabase/supabase-js@^2.46.1",
+        "npm:@vitejs/plugin-vue@^5.1.4",
+        "npm:autoprefixer@^10.4.20",
+        "npm:axios@^1.7.7",
+        "npm:pinia@^2.2.6",
+        "npm:postcss@^8.4.49",
+        "npm:tailwindcss@^3.4.15",
+        "npm:uuid@^11.0.3",
+        "npm:vite-plugin-vue-devtools@^7.5.4",
+        "npm:vite@^5.4.10",
+        "npm:vue-router@^4.4.5",
+        "npm:vue@^3.5.12",
+        "npm:vuetify@^3.7.4"
+      ]
+    }
+  }
+}
